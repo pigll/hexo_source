@@ -1,0 +1,3 @@
+﻿<a href="<%- url_for(post.path) %>" class="<%= class_name %>">
+  	<% if(!index){ %>热度<span id="busuanzi_value_page_pv"></span>℃&nbsp;&nbsp;&nbsp;<% } %><time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><i class="icon-calendar icon"></i><%= date(post.date, date_format) %></time>
+</a>

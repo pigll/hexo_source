@@ -1,0 +1,85 @@
+﻿<%- partial('_partial/head') %>
+<body>
+  <!--[if IE]><!--[if lte IE 9]><div style="position:absolute;width:100%;height:50px;background-color:yellow;line-height:50px;text-align:center;z-index:9999999999;">对不起，此页面在IE9.0及以前版本中显示异常，请使用更为先进的浏览器！</div><![endif]--><![endif]-->
+  <div id="container" q-class="show:isCtnShow">
+    <canvas id="anm-canvas" class="anm-canvas"></canvas>
+    <div class="left-col" q-class="show:isShow">
+      <%- partial('_partial/left-col', null, {cache: !config.relative_link}) %>
+    </div>
+    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
+      <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
+      <div id="wrapper" class="body-wrap">
+        <div class="menu-l">
+          <div class="canvas-wrap">
+            <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
+          </div>
+          <div id="js-content" class="content-ll">
+            <%- body %>
+          </div>
+        </div>
+      </div>
+      <%- partial('_partial/footer') %>
+    </div>
+    <%- partial('_partial/after-footer') %>
+    <%- partial('_partial/tools') %>
+    <%- partial('_partial/viewer') %>
+  </div>
+</body>
+
+
+<script type="text/javascript">
+<!--
+//contrll left-col
+var lc_s=true;
+var lc_l=document.getElementsByClassName("left-col").item(0);
+var lc_m=document.getElementsByClassName("mid-col").item(0);
+var lc_b=document.getElementsByClassName("left-botton").item(0);
+var lc_t=document.getElementsByClassName("tools-col").item(0);
+var lcs_l=lc_l.style.left;
+var lcs_m=lc_m.style.left;
+var lcs_t=lc_t.style.display;
+lc_b.onclick=function(){
+    if(lc_s){
+        lc_b.innerHTML="&nbsp;〉";
+        lc_l.style.left="-300px";
+        lc_m.style.left="0px";
+        lc_t.style.display="none";
+        lc_s=false;
+    }else {
+        lc_b.innerHTML="〈&nbsp;";
+        lc_m.style.left=lcs_l;
+        lc_l.style.left=lcs_m;
+        lc_t.style.display=lcs_t;
+        lc_s=true;
+    }
+}
+//edit title
+var IcoLink=document.getElementById("icoid");
+var OriginTitile=document.title;
+var OriginIco=IcoLink.href;
+var st;
+document.addEventListener('visibilitychange',function(){
+    if(document.hidden){
+        document.title=unescape("%28%u3064%u30A7%u2282%29%u6211%u85CF%u597D%u4E86%u54E6")+"★"+OriginTitile;
+        IcoLink.href="/chick.ico";
+        clearTimeout(st);
+    }else{
+        document.title=unescape("%28*%B4%u2207%uFF40*%29%20%20%u88AB%u4F60%u53D1%u73B0%u5566%7E%20")+"★"+OriginTitile;
+        st=setTimeout(function(){
+            document.title=OriginTitile;
+            IcoLink.href=OriginIco;
+        },3500);
+    }
+});
+-->
+</script>
+
+<style type="text/css">
+<!--
+#header .header-nav .social a.tumblr {
+    background: #41ca9e;
+    border: 1px solid #41ca9e;
+}
+-->
+</style>
+</html>

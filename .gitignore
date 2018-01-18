@@ -1,0 +1,12 @@
+node_modules/
+public/
+.deploy_git/
+.git/
+!scaffolds/
+!source/
+!themes/
+!.gitignore
+!_admin-config.yml
+!_config.yml
+!db.json
+!package.json
