@@ -26,7 +26,7 @@ Hexo也用了有一段时间了，有点太多了就不再一一列出了，不�
 
 ##### 配置Travis CI #####
 Travis CI网站可以使用GitHub的帐号登录，登陆后自动关联GitHub中的仓库。界面如下
-![图片1](【原创】使用Travis CI自动更新Hexo博客到Github/1.png)
+![图片1](/images/【原创】使用Travis CI自动更新Hexo博客到Github/1.png)
 
 ##### 完成 #####
 至此配置完成，只要新建仓库中的内容发生改变，Travis CI就会自动帮你更新Hexo博客的内容，你可以通过GitHub Disktop软件更新仓库中文件内容，也可以直接在网上手动创建、编辑MD文件来更新Hexo。
