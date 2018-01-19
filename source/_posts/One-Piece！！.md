@@ -1,7 +1,6 @@
 title: One Piece！！
 author: 无知の人
 tags:
-  - Hexo
   - 随笔
 categories:
   - 乱语
