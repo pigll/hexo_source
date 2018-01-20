@@ -8,6 +8,7 @@
         <% } %>
       </header>
     <% } %>
+	<%if(!post.top){%>
     <div class="article-entry" itemprop="articleBody">
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
@@ -51,6 +52,7 @@
         </div>
       <% } %>
     </div>
+	<% } %>
     <div class="article-info article-info-index">
       <%if(post.top){%>
         <div class="article-pop-out tagcloud">
