@@ -69,7 +69,7 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: https://github.com/1306015093/baipai_home.git
+  repo: https://github.com/1306015093/blog.git
   branch: master
 
 # Yilia Theme

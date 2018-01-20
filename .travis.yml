@@ -27,4 +27,4 @@ branches:
     - master
 env:
  global:
-   - GH_REF: github.com/1306015093/baipai_home.git
+   - GH_REF: github.com/1306015093/blog.git
