@@ -60,7 +60,7 @@ weixin:
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.ico
+favicon: /blog/favicon.ico
 
 #你的头像url
 avatar: /blog/img/1306015093.jpg
