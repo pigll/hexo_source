@@ -8,7 +8,7 @@
         <% } %>
       </header>
     <% } %>
-	<%if(!post.top){%>
+	<%if(!post.top || !index){%>
     <div class="article-entry" itemprop="articleBody">
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
