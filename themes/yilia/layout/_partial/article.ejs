@@ -60,6 +60,18 @@
           <a class="article-tag-list-link color3">置顶</a>
         </div>
       <% } %>
+      <%if(post.origin){%>
+        <div class="article-pop-out tagcloud">
+          <i class="icon-tuding"></i>
+          <a class="article-tag-list-link color2">原创</a>
+        </div>
+      <% } %>
+      <%if(!post.origin){%>
+        <div class="article-pop-out tagcloud">
+          <i class="icon-tuding"></i>
+          <a class="article-tag-list-link color2">转载</a>
+        </div>
+      <% } %>
       <%- partial('post/tag') %>
       <%- partial('post/category') %>
       <% if (index && theme.show_all_link){ %>
