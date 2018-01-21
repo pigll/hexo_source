@@ -1,10 +1,11 @@
-title: 【原创】使用Travis CI自动更新Hexo博客到Github
+title: 使用Travis CI自动更新Hexo博客到Github
 author: 无知の人
 tags:
   - Hexo
 categories:
   - 研究
 date: 2018-01-16 17:19:47
+origin: true
 ---
 ##### 前言 #####
 Hexo也用了有一段时间了，有点太多了就不再一一列出了，不过弊端也是有的，例如更新博客必须要在本地的电脑上搭设Hexo本地程序，实在是不方便维护，最近研究了一种可以脱离本地程序，完全线上更新Hexo博客的方式，这样就可以在任意一台电脑上进行维护了，那么废话不多说，下面开始讲解方法。

@@ -1,4 +1,4 @@
-title: 【转载】HoloKit自制纸板混合现实MR眼镜教程
+title: HoloKit自制纸板混合现实MR眼镜教程
 author: 无知の人
 tags:
   - Holokit
@@ -7,6 +7,7 @@ tags:
 categories:
   - 研究
 date: 2017-09-07 18:16:00
+origin: false
 ---
 ![图片1](/blog/images/【转载】Holokit自制纸板混合现实MR眼镜教程/1.png)
 

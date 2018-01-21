@@ -1,10 +1,11 @@
-title: 【原创】Hexo博客集成来必力评论系统教程
+title: Hexo博客集成来必力评论系统教程
 author: 无知の人
 tags:
   - Hexo
 categories:
   - 研究
 date: 2018-01-19 11:52:17
+origin: true
 ---
 前言
 ------------

@@ -1,10 +1,11 @@
-title: 【原创】Hexo博客集成友言评论系统教程
+title: Hexo博客集成友言评论系统教程
 author: 无知の人
 tags:
   - Hexo
 categories:
   - 研究
 date: 2017-07-28 16:58:00
+origin: true
 ---
 前言
 ------------
