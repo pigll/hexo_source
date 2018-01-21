@@ -28,22 +28,22 @@ Hexo也用了有一段时间了，有点太多了就不再一一列出了，不�
 ##### 配置GitHub #####
 登录GitHub，点击右上角头像进入【Settings】，依次选择【Developer settings】、【Personal access tokens】，然后点击【Generate new token】按钮创建密钥。选项按下图填写：
 
-![图片1](/blog/images/【原创】使用Travis CI自动更新Hexo博客到Github/1.png)
+![图片1](/blog/images/使用Travis CI自动更新Hexo博客到Github/1.png)
 
 注意：点击确定后，密匙只会显示一次，页面刷新后即隐藏，别忘了复制。
 
 ##### 配置Travis CI #####
 Travis CI网站可以使用GitHub的帐号登录，登陆后自动关联GitHub中的仓库。界面如下：
 
-![图片2](/blog/images/【原创】使用Travis CI自动更新Hexo博客到Github/2.png)
+![图片2](/blog/images/使用Travis CI自动更新Hexo博客到Github/2.png)
 
 选择要存放Hexo博客源文件的仓库，点击左侧的开关将其激活（如上图），然后点击右侧的连接，进入下面界面：
 
-![图片3](/blog/images/【原创】使用Travis CI自动更新Hexo博客到Github/3.png)
+![图片3](/blog/images/使用Travis CI自动更新Hexo博客到Github/3.png)
 
 找到上图右侧标注方框的位置，点击选择【Settings】，打开如下界面：
 
-![图片4](/blog/images/【原创】使用Travis CI自动更新Hexo博客到Github/4.png)
+![图片4](/blog/images/使用Travis CI自动更新Hexo博客到Github/4.png)
 
 前面的配置按上图点选。
 

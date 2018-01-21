@@ -7,9 +7,9 @@ tags:
 categories:
   - 研究
 date: 2017-09-07 18:16:00
-origin: false
+repro: true
 ---
-![图片1](/blog/images/【转载】Holokit自制纸板混合现实MR眼镜教程/1.png)
+![图片1](/blog/images/Holokit自制纸板混合现实MR眼镜教程/1.png)
 
 HoloKit官方网站：https://holokit.io/
 
