@@ -5,11 +5,11 @@
 <% } else if (post.title){ %>
   <% if (index){ %>
     <h1 itemprop="name">
-      <%if(post.top){%>【置顶】<% } %><%if(post.origin){%>【原创】<% } %><%if(!post.origin){%>【转载】<% } %><a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%= post.title %></a>
+      <a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%if(post.top){%>【置顶】<% } %><%if(post.origin){%>【原创】<% } %><%if(post.repro){%>【转载】<% } %><%= post.title %></a>
     </h1>
   <% } else { %>
     <h1 class="<%= class_name %>" itemprop="name">
-      <%if(post.top){%>【置顶】<% } %><%if(post.origin){%>【原创】<% } %><%if(!post.origin){%>【转载】<% } %><%= post.title %>
+      <%if(post.top){%>【置顶】<% } %><%if(post.origin){%>【原创】<% } %><%if(post.repro){%>【转载】<% } %><%= post.title %>
     </h1>
   <% } %>
 <% } %>
