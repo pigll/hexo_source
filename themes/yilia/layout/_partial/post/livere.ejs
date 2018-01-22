@@ -1,5 +1,5 @@
 <!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid="<%=theme.livere%>" style="margin:30px;margin-top:20px;padding-left:6.5%;padding-right:6.5%;background-color:#ffffff;">
+<div id="lv-container" class="article article-type-post" data-id="city" data-uid="<%=theme.livere%>" style="margin-bottom:30px;margin-top:20px;background-color:#ffffff;">
 <script type="text/javascript">
    (function(d, s) {
        var j, e = d.getElementsByTagName(s)[0];
@@ -15,19 +15,4 @@
 </script>
 <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
 </div>
-<script type="text/javascript">
-    function liverewidth(){
-        if($(document).width()<=800){
-            $("#lv-container").css({"margin-left":"0px","margin-right":"0px"});
-        }else {
-            $("#lv-container").css({"margin-left":"0px","margin-right":"0px"});
-        }
-    }
-    $(document).ready(function(){
-        $(window).resize(function () {
-            liverewidth();
-        });
-        liverewidth();
-    });
-</script>
 <!-- City版安装代码已完成 -->
