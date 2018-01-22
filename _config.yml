@@ -74,7 +74,8 @@ deploy:
 
 # Yilia Theme
 jsonContent:
-  meta: false
+  meta:
+    url: http://muchisan.tk/blog
   pages: false
   posts:
     title: true
