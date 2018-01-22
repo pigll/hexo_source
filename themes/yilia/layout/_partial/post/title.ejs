@@ -5,11 +5,11 @@
 <% } else if (post.title){ %>
   <% if (index){ %>
     <h1 itemprop="name">
-      <a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%if(post.top){%><span class="my_title_span">【置顶】</span><% } %><%if(post.origin){%><span class="my_title_span">【原创】</span><% } %><%if(post.repro){%><span class="my_title_span">【转载】</span><% } %><%= post.title %></a>
+      <a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%if(post.top){%><qz class="my_title_qz">【置顶】</qz><% } %><%if(post.origin){%><qz class="my_title_qz">【原创】</qz><% } %><%if(post.repro){%><qz class="my_title_qz">【转载】</qz><% } %><%= post.title %></a>
     </h1>
   <% } else { %>
     <h1 class="<%= class_name %>" itemprop="name">
-      <%if(post.top){%><span class="my_title_span">【置顶】</span><% } %><%if(post.origin){%><span class="my_title_span">【原创】</span><% } %><%if(post.repro){%><span class="my_title_span">【转载】</span><% } %><%= post.title %>
+      <%if(post.top){%><qz class="my_title_qz">【置顶】</qz><% } %><%if(post.origin){%><qz class="my_title_qz">【原创】</qz><% } %><%if(post.repro){%><qz class="my_title_qz">【转载】</qz><% } %><%= post.title %>
     </h1>
   <% } %>
 <% } %>
