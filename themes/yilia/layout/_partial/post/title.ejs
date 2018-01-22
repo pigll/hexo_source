@@ -3,12 +3,6 @@
     <a class="<%= class_name %>" href="<%- url_for(post.link) %>" target="_blank" itemprop="url"><%= post.title %></a>
   </h1>
 <% } else if (post.title){ %>
-<style type="text/css">
-.my_title_span {
-    color: #696969;
-    font-size: 26px;
-}
-</style>
   <% if (index){ %>
     <h1 itemprop="name">
       <%if(post.top){%><span class="my_title_span">【置顶】</span><% } %><%if(post.origin){%><span class="my_title_span">【原创】</span><% } %><%if(post.repro){%><span class="my_title_span">【转载】</span><% } %><a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%= post.title %></a>
