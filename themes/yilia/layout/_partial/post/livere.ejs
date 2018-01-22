@@ -17,7 +17,7 @@
 </div>
 <script type="text/javascript">
    function checkthewidth(){if($(document).width()<=800){$("#lv-container").css({"margin-left":"0px","margin-right":"0px"});}else {$("#lv-container").css({"margin-left":"0px","margin-right":"0px"});}}
-   $(window).resize(function () {checkthewidth();});
+   $(document).ready(function(){$(window).resize(function () {checkthewidth();});});
    checkthewidth();
 </script>
 <!-- City版安装代码已完成 -->
