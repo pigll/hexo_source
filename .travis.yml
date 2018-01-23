@@ -9,6 +9,8 @@ install:
 before_script:
  #- npm install -g gulp
   - npm i hexo-generator-json-content --save
+  - npm uninstall hexo-generator-index --save
+  - npm install hexo-generator-index-pin-top --save
 
 script:
   - hexo g
