@@ -12,9 +12,7 @@ repro: true
 ![图片1](/blog/images/Holokit自制纸板混合现实MR眼镜教程/1.png)
 
 HoloKit官方网站：https://holokit.io/
-
 HoloKit开源项目地址：https://github.com/holokit/
-
 HoloKit中文教程：http://www.holokit.cc/a/24.html
 
 <!-- more -->
